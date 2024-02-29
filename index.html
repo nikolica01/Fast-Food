@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>Burger Resturant</title>
+            <link rel="stylesheet" href="burger.css">
+        </head>
+    <body>
+<header>
+    <div class="burger-layout">
+            <img src="images/ovaj.jpg" alt="" width="570px">
+        <div class="title">
+            <h1>Nicola's Dinner</h1>
+            <p>The best burgers and pizzas in town</p>
+        </div>
+    </div>
+</header>
+   
+<main>
+  <div class="container" id="container">
+        <!--Here is Render menu-->
+  </div>
+  <div class="orders-div hidden">
+                    <h1>Your order here</h1>
+                        <div class="card-details" id="card-details">
+                            <!--Here is Render Order-->
+                        </div>
+                
+    <hr>
+   
+   
+                        <div id="total-price" class="total-price">
+                        Total Price:<span id="total"></span><span>$</span>
+                    </div>
+                    <button class="complete-orderbtn" id="complete-orderbtn">Complete Order</button>
+</div>
+        <form action="payment" id="payment" class="payment">
+                <p id="title-payment">Enter Card Details</p>
+                <button class="close-btn" type="button" id="close-btn">X</button>
+                <input type="text" placeholder="Enter Your Name" required id="username" name="username">
+                <input type="text" placeholder="Enter card number" required minlength="16" maxlength="16" id="card-numbers">
+                <input type="text" placeholder="Enter CVV" required maxlength="3" minlength="3" id="card-cvv">
+                
+                <button class="payment-btn" type="submit">Pay</button>
+
+
+        </form>
+
+</main>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

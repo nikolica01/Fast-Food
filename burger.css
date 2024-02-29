@@ -1,0 +1,176 @@
+
+body{
+    margin: 0;
+
+}
+.burger-layout{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.title{
+    position:absolute;
+    top: 50%;
+    color: whitesmoke;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+   margin: auto;
+    max-width: 570px;
+ 
+    border-radius: 2px;
+}
+
+.pizza{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 10px;
+    position: relative;
+
+
+}
+
+.simbole{
+    margin-right: 20px;
+    font-size: 50px;
+}
+.add-btn{
+   align-self: center;
+   flex: 2;
+ 
+}
+
+.button-add{
+    padding:20px;
+    border-radius: 10px;
+    border: none;
+   margin:auto;
+   width: 50px;
+   height: 50px;
+   position:absolute;
+   right: 60px;
+  
+}
+.card-details{
+    display: flex;
+    max-width: 570px;
+  margin: auto;
+  text-align: center;
+   flex-direction: column;
+}
+h1{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.order-list{
+    display: flex;
+   flex-direction: row;
+   gap: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+}
+.orders-div{
+    text-align: center;
+
+}
+hr{
+    max-width: 570px;
+}
+.total-price{
+    display: flex;
+    justify-content: center;
+   align-items: flex-end;
+   font-size: 30px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+}
+.complete-orderbtn{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding:15px 20px;
+    border-radius: 5px;
+    border: none;
+   width: 570px;
+   background-color: #8CB9BD;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.price-span{
+    display: inline-block;
+    margin-left: auto;
+}
+.order-remove{
+    font-size: 22px;
+    color: #CCD3CA;
+    cursor: pointer;
+    font-weight: bold;
+}
+.order-remove:hover{
+    color: red;
+}
+.payment{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 10px  rgb(52, 91, 73);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+  font-size: 30px;
+    text-align: center;
+  align-items: center;
+gap: 50px;
+display: none;
+
+}
+input{
+    max-width: 300px;
+    padding: 10px 30px;
+    text-align: left;
+    border-radius: 6px;
+    font-weight: bold;
+    
+
+}
+.payment-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    background-color:#8CB9BD ;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: white;
+}
+.close-btn{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:none;
+}
+.hidden{
+    display: none;
+}
+.client-select{
+    color: #789461;
+}
